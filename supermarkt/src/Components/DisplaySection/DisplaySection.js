@@ -147,7 +147,7 @@ export default function DisplaySection() {
                     <p>$5.99</p>
                     <button
                         className="buy-now-btn"
-                        onClick={() => (window.location.href = 'http://localhost:8080?amount=5.99')}
+                        onClick={() => (window.location.href = 'http://13.127.178.202/?amount=5.99')}
                     >
                         Buy Now
                     </button>
@@ -158,7 +158,7 @@ export default function DisplaySection() {
                     <p>$3.49</p>
                     <button
                         className="buy-now-btn"
-                        onClick={() => (window.location.href = 'http://localhost:8080?amount=3.49')}
+                        onClick={() => (window.location.href = 'http://13.127.178.202/?amount=3.49')}
                     >
                         Buy Now
                     </button>
@@ -169,7 +169,7 @@ export default function DisplaySection() {
                     <p>$6.99</p>
                     <button
                         className="buy-now-btn"
-                        onClick={() => (window.location.href = 'http://localhost:8080?amount=6.99')}
+                        onClick={() => (window.location.href = 'http://13.127.178.202/?amount=6.99')}
                     >
                         Buy Now
                     </button>
@@ -180,7 +180,7 @@ export default function DisplaySection() {
                     <p>$4.99</p>
                     <button
                         className="buy-now-btn"
-                        onClick={() => (window.location.href = 'http://localhost:8080?amount=4.99')}
+                        onClick={() => (window.location.href = 'http://13.127.178.202/?amount=4.99')}
                     >
                         Buy Now
                     </button>
