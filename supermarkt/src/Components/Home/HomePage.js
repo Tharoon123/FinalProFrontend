@@ -15,7 +15,7 @@ function HomePage() {
       <Navbar />
       
       <DisplaySection></DisplaySection>
-      <Advertisement></Advertisement>
+      {/* <Advertisement></Advertisement> */}
       <Brands />
       <Footer></Footer>
 
