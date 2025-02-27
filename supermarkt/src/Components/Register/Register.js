@@ -21,7 +21,7 @@ function Register(props) {
         lname: lname,
       };
 
-      let url = `${getBaseURL()}api/users/register`;
+      let url = `${getBaseURL}/createCustomerSupermarket`;
       axios
         .post(url, { ...newUser })
         .then((res) => {

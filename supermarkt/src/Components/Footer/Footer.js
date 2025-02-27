@@ -86,9 +86,9 @@ export default function Footer() {
                             height: 100,
                             width: 450,
                         }}
-                        onClick={() =>
-                            (window.location.href = 'http://localhost:8080/?amount=100') // Replace 100 with the dynamic amount
-                        }                        alt=""
+                        // onClick={() =>
+                        //     (window.location.href = 'http://localhost:8080/?amount=100') // Replace 100 with the dynamic amount
+                        // }                        
                     />
                 </div>
             </div>

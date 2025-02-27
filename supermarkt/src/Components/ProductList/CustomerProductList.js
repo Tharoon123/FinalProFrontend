@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { getBaseURL } from "../apiConfig";
 import ShoppingCart from "../ShopingCart/ShoppingCart";
-import HeaderS from "../Header/HeaderS";
 
 const ProductListCustomer = (props) => {
   const [productList, setProductList] = useState([]);
@@ -138,7 +137,6 @@ const ProductListCustomer = (props) => {
 
   return (
     <>
-      
       <div className="product-list-container">
         <div>
           <h1>Products</h1>
@@ -174,6 +172,7 @@ const ProductListCustomer = (props) => {
                     </td>
                     <td>
                       <button
+                        
                         onClick={() => {
                           addToCart(product);
                         }}

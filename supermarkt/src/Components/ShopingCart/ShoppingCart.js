@@ -19,7 +19,7 @@ const ShoppingCart = (props) => {
   }, [props.cartProducts]);
 
   const buyProducts = () => {
-    
+    props.buyProducts();
   };
 
   return (
@@ -57,7 +57,13 @@ const ShoppingCart = (props) => {
               </tbody>
             </table>
             <div className="address-container">
-              
+              <input
+                type="text"
+                className="address-input"
+                placeholder="Address"
+                value={props.address}
+                onChange={(e) => props.updateAddress(e.target.value)}
+              />
               <button className="buy-button" onClick={buyProducts}>
                 Buy
               </button>

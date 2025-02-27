@@ -7,6 +7,7 @@ import Navbar from "../Navbar/Navbar";
 import DisplaySection from "../DisplaySection/DisplaySection";
 import Brands from "../Brands/Brands";
 import Footer from "../Footer/Footer";
+import ShoppingCart from "../ShopingCart/ShoppingCart";
 
 const CustomerContainer = () => {
   const [isProductsActive, setIsProductsActive] = useState(true);
@@ -14,9 +15,8 @@ const CustomerContainer = () => {
   return (
     <div className="customer-container">
       {/* Display HeaderS at the top */}
-      <HeaderS />
-      <Navbar />
-      <DisplaySection />  
+
+      <DisplaySection />
 
       <div>
         <button onClick={() => setIsProductsActive(!isProductsActive)}>
@@ -27,9 +27,8 @@ const CustomerContainer = () => {
           {isProductsActive ? <CustomerProductList /> : <CustomerOrders />}
         </div>
       </div>
-
+      
       <Brands />
-      <Footer></Footer>
     </div>
   );
 };

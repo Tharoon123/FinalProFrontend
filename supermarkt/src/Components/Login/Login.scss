@@ -33,7 +33,7 @@
     button {
         width: 100%;
         padding: 10px;
-        background-color: #007bff;
+        background-color: #0ba305;
         color: #fff;
         border: none;
         border-radius: 3px;
@@ -41,19 +41,19 @@
         transition: background-color 0.3s ease;
 
         &:hover {
-            background-color: #0056b3;
+            background-color: #00b318;
         }
     }
 
     .register-link {
         text-align: center;
         margin-top: 10px;
-        color: #007bff;
+        color: #16b70d;
         cursor: pointer;
         transition: color 0.3s ease;
 
         &:hover {
-            color: #0056b3;
+            color: #00b339;
         }
     }
 
